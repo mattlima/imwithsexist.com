@@ -1,0 +1,626 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #00586c;
+	color: white;
+}
+* {
+	box-sizing: border-box;
+}
+.hidden {
+	display: none;
+}
+.clear {
+	width: 100%;
+	height: 20px;
+	float: none;
+	clear: both;
+}
+.mobilecontrol {
+	display: none;
+}
+.serif, p, body {
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+.sans-serif {
+	font-family: "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.pull-left {
+	text-align: left;
+}
+.content {
+	background: #00586c;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header {
+	background: #002f3d;
+	color: #f15f3c;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding: 30px;
+}
+.header div {
+	max-width: 950px;
+	margin: 0 auto;
+}
+.logo img {
+	max-width: 350px;
+}
+.wrap {
+	max-width: 950px;
+	width: 100%;
+	padding: 40px 0;
+	margin: auto;
+}
+.primary {
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.firstbreak {
+	display: block;
+}
+.secondbreak {
+	display: block;
+}
+.orange {
+	color: #f15f3c;
+}
+.littlehands {
+	text-transform: none;
+	font-size: 22px;
+}
+p {
+	font-size: 23px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+.unslider {
+	position: relative;
+}
+.coward {
+	max-width: 700px;
+	width: 100%;
+	background: #002f3d;
+	margin: 100px auto 0 auto;
+}
+.coward-heading {
+	position: relative;
+	background: #f15f3c;
+	height: 100px;
+}
+.coward-info-container {
+	width: 100%;
+	height: 100%;
+}
+.coward-mug-shot {
+	width: 150px;
+	float: left;
+	height: 100%;
+	height: 150px;
+	border-radius: 100%;
+	border: 8px solid white;
+	margin-top: -75px;
+	margin-left: 25px;
+}
+.coward-tagline {
+	width: auto;
+	font-weight: bold;
+	position: relative;
+	left: 15px;
+	box-sizing: border-box;
+	padding-right: 15px;
+	top: 15px;
+}
+.coward-photo {
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+	border: 8px solid white;
+	position: absolute;
+	top: -75px;
+	left: 25px;
+}
+.coward-content {
+	padding: 40px;
+	margin-bottom: 10px;
+}
+.coward-button {
+	float: right;
+	color: white;
+	text-decoration: none;
+	background: #00b4dc;
+	height: 60px;
+	margin-right: -40px;
+	margin-top: -20px;
+	line-height: 60px;
+	padding: 0 20px;
+	font-size: 21px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.coward-button {
+	color: white;
+	text-decoration: none;
+}
+.coward-button:hover {
+	background: #009cbf;
+}
+.tweet {
+	margin-top: 0;
+}
+.unslider-arrow {
+	top: 50%;
+	margin: auto;
+	bottom: 50%;
+}
+.unslider-nav {
+	display: hidden !important;
+}
+.unslider-arrow {
+	font-size: 80px;
+	font-weight: 900;
+}
+.ryan {
+	background: white url('img/ryan.png') center/cover no-repeat;
+}
+.billcassidy {
+	background: white url('img/billcassidy.jpg') center/cover no-repeat;
+}
+.bobcorker {
+	background: white url('img/bobcorker.jpg') center/cover no-repeat;
+}
+.chuckgrassley {
+	background: white url('img/chuckgrassley.jpg') center/cover no-repeat;
+}
+.corygardner {
+	background: white url('img/corygardner.jpeg') center/cover no-repeat;
+}
+.dancoats {
+	background: white url('img/dancoats.jpeg') center/cover no-repeat;
+}
+.dansullivan {
+	background: white url('img/dansullivan.png') center/cover no-repeat;
+}
+.davidperdue {
+	background: white url('img/davidperdue.png') center/cover no-repeat;
+}
+.davidvitter {
+	background: white url('img/davidvitter.jpg') center/cover no-repeat;
+}
+.debfischer {
+	background: white url('img/debfischer.jpeg') center/cover no-repeat;
+}
+.jameslankford {
+	background: white url('img/jameslankford.jpeg') center/cover no-repeat;
+}
+.jeffsessions {
+	background: white url('img/jeffsessions.jpeg') center/cover no-repeat;
+}
+.jerrymoran {
+	background: white url('img/jerrymoran.jpg') center/cover no-repeat;
+}
+.jiminhofe {
+	background: white url('img/jiminhofe.jpeg') center/cover no-repeat;
+}
+.johnbarrasso {
+	background: white url('img/johnbarrasso.JPG') center/cover no-repeat;
+}
+.johnboozman {
+	background: white url('img/johnboozman.jpg') center/cover no-repeat;
+}
+.johncornyn {
+	background: white url('img/johncornyn.jpg') center/cover no-repeat;
+}
+.johnhoeven {
+	background: white url('img/johnhoeven.jpg') center/cover no-repeat;
+}
+.johnmccain {
+	background: white url('img/johnmccain.jpg') center/cover no-repeat;
+}
+.johnthune {
+	background: white url('img/johnthune.jpg') center/cover no-repeat;
+}
+.johnnyisakson {
+	background: white url('img/johnnyisakson.jpeg') center/cover no-repeat;
+}
+.joniernst {
+	background: white url('img/joniernst.jpeg') center/cover no-repeat;
+}
+.lisamurkowski {
+	background: white url('img/lisamurkowski.jpg') center/cover no-repeat;
+}
+.marcorubio {
+	background: white url('img/marcorubio.jpg') center/cover no-repeat;
+}
+.mikecrapo {
+	background: white url('img/mikecrapo.jpeg') center/cover no-repeat;
+}
+.mikeenzi {
+	background: white url('img/mikeenzi.png') center/cover no-repeat;
+}
+.mikerounds {
+	background: white url('img/mikerounds.jpeg') center/cover no-repeat;
+}
+.mitchmcconnell {
+	background: white url('img/mitchmcconnell.jpg') center/cover no-repeat;
+}
+.orrinhatch {
+	background: white url('img/orrinhatch.jpg') center/cover no-repeat;
+}
+.patroberts {
+	background: white url('img/patroberts.jpg') center/cover no-repeat;
+}
+.pattoomey {
+	background: white url('img/pattoomey.jpeg') center/cover no-repeat;
+}
+.paulryan {
+	background: white url('img/paulryan.jpg') center/cover no-repeat;
+}
+.randpaul {
+	background: white url('img/randpaul.jpg') center/cover no-repeat;
+}
+.reince {
+	background: white url('img/reince.png') center/cover no-repeat;
+}
+.mikepence {
+	background: white url('img/mikepence.jpg') center/cover no-repeat;
+}
+.richardburr {
+	background: white url('img/richardburr.jpg') center/cover no-repeat;
+}
+.robportman {
+	background: white url('img/robportman.jpeg') center/cover no-repeat;
+}
+.rogerwicker {
+	background: white url('img/rogerwicker.jpg') center/cover no-repeat;
+}
+.ronjohnson {
+	background: white url('img/ronjohnson.jpg') center/cover no-repeat;
+}
+.royblunt {
+	background: white url('img/royblunt.jpeg') center/cover no-repeat;
+}
+.shelleymoorecapito {
+	background: white url('img/shelleymoorecapito.jpeg') center/cover no-repeat;
+}
+.stevedaines {
+	background: white url('img/stevedaines.jpg') center/cover no-repeat;
+}
+.tedcruz {
+	background: white url('img/tedcruz.jpg') center/cover no-repeat;
+}
+.thadcochran {
+	background: white url('img/thadcochran.jpg') center/cover no-repeat;
+}
+.thomtillis {
+	background: white url('img/thomtillis.jpeg') center/cover no-repeat;
+}
+.timscott {
+	background: white url('img/timscott.jpg') center/cover no-repeat;
+}
+.tomcotton {
+	background: white url('img/tomcotton.jpeg') center/cover no-repeat;
+}
+/*slider CSS*/
+.unslider {
+	overflow: auto;
+	margin: 0;
+	padding: 0
+}
+.unslider-wrap {
+	position: relative
+}
+.unslider-wrap.unslider-carousel>li {
+	float: left
+}
+.unslider-vertical>ul {
+	height: 100%
+}
+.unslider-vertical li {
+	float: none;
+	width: 100%
+}
+.unslider-fade {
+	position: relative
+}
+.unslider-fade .unslider-wrap li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 8
+}
+.unslider-fade .unslider-wrap li.unslider-active {
+	z-index: 10
+}
+.unslider li, .unslider ol, .unslider ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none
+}
+.unslider-arrow {
+	position: absolute;
+	left: 20px;
+	z-index: 2;
+	cursor: pointer
+}
+.unslider-arrow.next {
+	left: auto;
+	right: 20px
+}
+footer {
+	width: 98%;
+	margin: 7rem auto 1rem auto;
+	max-width: 400px;
+	font-size: 11px;
+	color: #FFF;
+	border: 1px solid #FFF;
+	box-sizing: border-box;
+	padding: 1%;
+	text-align: center;
+	font-weight: normal;
+}
+
+@media only screen and (max-width: 1200px) {
+.wrap {
+	max-width: 750px;
+}
+.primary {
+	font-size: 28px;
+}
+p {
+	font-size: 20px;
+}
+}
+
+@media only screen and (max-width: 960px) {
+.wrap {
+	max-width: 600px;
+}
+.primary {
+	font-size: 22px;
+}
+p {
+	font-size: 18px;
+}
+.littlehands {
+	font-size: 15px;
+}
+}
+.start {
+	display: none;
+}
+
+@media only screen and (max-width: 870px) {
+.coward-button {
+	float: none;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	line-height: auto;
+	display: block;
+	text-align: center;
+}
+.clear {
+	height: 0px;
+}
+}
+
+@media only screen and (max-width: 817px) {
+.start {
+	display: block;
+	width: 100%;
+	float: left;
+	color: white;
+	text-decoration: none;
+	height: 75px;
+	line-height: 75px;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 900;
+	box-sizing: border-box;
+	padding: 0 5%;
+	background-color: rgba(241,95,60,0.6);
+	background-size: 200% 100%;
+	background-image: linear-gradient(to right, rgba(241,95,60,1) 50%, rgba(97,185,204,1) 50%);
+	transition: background-position 400ms;
+	text-align: center;
+}
+.start:hover {
+	cursor: pointer;
+	background-position: -100% 0;
+}
+.wrap {
+	max-width: 95%;
+	padding: 50px 0 15px 0;
+}
+.firstbreak {
+	display: none;
+}
+.secondbreak {
+	display: none;
+}
+.unslider-arrow {
+	position: absolute;
+	width: 50%;
+	top: 0;
+	color: white;
+	text-decoration: none;
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 900;
+	box-sizing: border-box;
+	padding: 0 5%;
+	background-color: rgba(241,95,60,0.6);
+	background-size: 200% 100%;
+	background-image: linear-gradient(to right, rgba(241,95,60,0.6) 50%, rgba(97,185,204,0.6) 50%);
+	transition: background-position 400ms;
+}
+.unslider-arrow:hover {
+	cursor: pointer;
+	background-position: 100% 0;
+}
+.unslider-arrow:first-of-type {
+	text-align: right;
+	background-color: rgba(241,95,60,1);
+	background-size: 200% 100%;
+	background-image: linear-gradient(to right, rgba(241,95,60,1) 50%, rgba(97,185,204,1) 50%);
+	transition: background-position 400ms;
+}
+.unslider-arrow:first-of-type:hover {
+	cursor: pointer;
+	background-position: -100% 0;
+}
+.unslider-arrow.prev {
+	position: absolute;
+	left: 0 !important;
+	z-index: 2;
+	cursor: pointer
+}
+.unslider-arrow.next {
+	left: 50%;
+	right: 0 !important
+}
+.unslider-arrow.next::before {
+	content: "Next ";
+}
+.unslider-arrow.prev::after {
+	content: " Previous";
+}
+}
+
+@media only screen and (max-width: 700px) {
+.coward-photo {
+	width: 75px;
+	height: 75px;
+	border: 4px solid #FFF;
+	top: 12px;
+}
+.coward-content {
+	padding: 20px;
+}
+.coward {
+	margin-top: 100px;
+}
+.coward-button {
+	float: none;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+	line-height: auto;
+	display: block;
+	text-align: center;
+}
+}
+@font-face {
+	font-family: 'icomoon';
+	src: url('fonts/icomoon.eot?72phzx');
+	src: url('fonts/icomoon.eot?72phzx#iefix') format('embedded-opentype'),  url('fonts/icomoon.ttf?72phzx') format('truetype'),  url('fonts/icomoon.woff?72phzx') format('woff'),  url('fonts/icomoon.svg?72phzx#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-facebook:before {
+	content: "\ea90";
+}
+.icon-twitter:before {
+	content: "\ea96";
+}
+.social {
+	width: 110px;
+	float: right;
+}
+.social a {
+	color: #FFF;
+	display: block;
+	background-color: #f15f3c;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	float: right;
+}
+.social a:first-of-type {
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 603px) {
+.coward-button {
+	font-size: 16px;
+}
+.social {
+	width: 78px;
+	float: right;
+	position: relative;
+	top: 10px;
+}
+.social a {
+	color: #FFF;
+	display: block;
+	background-color: #f15f3c;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	line-height: 35px;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	cursor: pointer;
+	float: right;
+}
+.social a:first-of-type {
+	margin-left: 8px;
+}
+}
+
+@media only screen and (max-width: 506px) {
+.header div img {
+	max-width: 250px;
+}
+.social {
+	position: relative;
+	top: 0;
+}
+}
+
+@media only screen and (max-width: 400px) {
+.social {
+	display: none;
+}
+.header {
+	text-align: center;
+}
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+.coward-button {
+	font-size: 16px;
+}
+.coward-button .icon-twitter {
+	display: none;
+}
+}
