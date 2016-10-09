@@ -56,10 +56,14 @@ body {
 	padding: 40px 0;
 	margin: auto;
 }
+.wrap .columns {
+	text-align: center;
+}
 .primary {
 	font-size: 35px;
 	text-transform: uppercase;
 	font-weight: 900;
+	text-align: center;
 }
 .firstbreak {
 	display: block;
@@ -82,7 +86,7 @@ p {
 	position: relative;
 }
 .coward {
-	max-width: 700px;
+	max-width: 600px;
 	width: 100%;
 	background: #002f3d;
 	margin: 100px auto 0 auto;
@@ -114,6 +118,8 @@ p {
 	box-sizing: border-box;
 	padding-right: 15px;
 	top: 15px;
+	font-size: 20px;
+	font-weight: 900;
 }
 .coward-photo {
 	height: 150px;
@@ -151,6 +157,8 @@ p {
 }
 .tweet {
 	margin-top: 0;
+	font-size: 18px;
+	line-height: 25px;
 }
 .unslider-arrow {
 	top: 50%;
@@ -356,10 +364,13 @@ p {
 .unslider-arrow.next:hover{
 	color: #254452 !important;
 }
+.unslider-arrow.prev:hover{
+	color: #254452 !important;
+}
 
 footer {
 	width: 98%;
-	margin: 7rem auto 1rem auto;
+	margin: 3rem auto 1rem auto;
 	max-width: 400px;
 	font-size: 11px;
 	color: #FFF;
@@ -683,7 +694,7 @@ a {
 
 .score-bar .category-title {
 	display: inline-block;
-	margin: 0 10px;
+	margin: 0 8px;
 	font-family: "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 800;
 	font-size: 12px;
@@ -775,7 +786,7 @@ a {
 }
 
 .score-modal .columns.bg-trump {
-	background: url('http://image.vanguardia.com.mx/sites/default/files/trump-5.jpg') top left no-repeat;
+	background: url('img/donald-trump-bg.jpg') top left no-repeat;
 	background-size: cover;
 }
 
@@ -831,6 +842,10 @@ a {
 
 @media only screen and (min-width: 768px) {
 
+	.coward-tagline {
+		font-size: 24px;
+	}
+
 	.content {
 		padding-top: 210px;
 	}
@@ -854,18 +869,25 @@ a {
 		float: left;
 	}
 
-	.score-modal .columns .slider {
-		width: 70%;
-		display: block;
-		margin: 0 auto;
-	}
-
 }
 
 @media only screen and (min-width: 1024px) {
+	
+	.wrap .columns {
+		float: left;
+		width: 50%;
+		padding: 0 30px;
+		text-align: left;
+	}
 
 	.content {
 		padding-top: 160px;
+	}
+
+	.score-modal .columns .slider {
+		width: 55%;
+		display: block;
+		margin: 0 auto;
 	}
 
 }
