@@ -840,6 +840,19 @@ a {
     text-align: left;
 }
 
+.slick-prev:before, .slick-next:before {
+	font-size: 40px;
+}
+
+.slick-next {
+	right: -80px;
+	display: none;
+}
+.slick-prev {
+	left: -80px;
+	display: none;
+}
+
 @media only screen and (min-width: 768px) {
 
 	.coward-tagline {
@@ -888,6 +901,13 @@ a {
 		width: 55%;
 		display: block;
 		margin: 0 auto;
+	}
+
+	.slick-next {
+		display: block;
+	}
+	.slick-prev {
+		display: block;
 	}
 
 }
