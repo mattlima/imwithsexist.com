@@ -732,11 +732,7 @@ p {
 	right: 20px;
 	width: 30px;
 	height: 30px;
-	color: white;
-	font-size: 30px;
-	text-decoration: none;
-	font-family: "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 800;
+	background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMS42NCAzMS42NCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOm5vbmU7c3Ryb2tlOiNmZmY7c3Ryb2tlLW1pdGVybGltaXQ6MTA7c3Ryb2tlLXdpZHRoOjRweDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPlJlY3Vyc28gMjwvdGl0bGU+PGcgaWQ9IkNhcGFfMiIgZGF0YS1uYW1lPSJDYXBhIDIiPjxnIGlkPSJMYXllcl8xIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjMwLjIyIiB5MT0iMS40MSIgeDI9IjEuNDEiIHkyPSIzMC4yMiIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjEuNDEiIHkxPSIxLjQxIiB4Mj0iMzAuMjIiIHkyPSIzMC4yMiIvPjwvZz48L2c+PC9zdmc+') center/contain no-repeat;
 	z-index: 101;
 }
 
