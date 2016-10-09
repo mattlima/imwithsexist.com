@@ -353,6 +353,10 @@ p {
 	left: auto;
 	right: 20px
 }
+.unslider-arrow.next:hover{
+	color: #254452 !important;
+}
+
 footer {
 	width: 98%;
 	margin: 7rem auto 1rem auto;
@@ -547,7 +551,7 @@ p {
 	content: "\ea96";
 }
 .social {
-	width: 110px;
+	width: auto;
 	float: right;
 }
 .social a {
@@ -564,8 +568,21 @@ p {
 	cursor: pointer;
 	float: right;
 }
+.social a:hover {
+	color: #AF4F36;
+}
 .social a:first-of-type {
 	margin-left: 10px;
+}
+.social a.button-share {
+	width: auto;
+	border-radius: 50px;
+	padding: 0 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: "OpenSans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	font-size: 18px;
 }
 
 @media only screen and (max-width: 603px) {
@@ -633,6 +650,13 @@ p {
 
 **************************************************************/
 
+a {
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+}
+
 .header {
 	position: fixed;
     width: 100%;
@@ -674,7 +698,10 @@ p {
 	height: 100%;
 }
 .score-bar .category-title a:hover {
-	text-decoration: underline;
+	color: #AF4F36;
+}
+.score-bar .category-title a:hover i {
+	border-color: transparent transparent transparent white;
 }
 
 .score-bar .category-title a .counter {
@@ -688,9 +715,13 @@ p {
 	height: 0;
 	border-style: solid;
 	border-width: 7px 0 7px 13.3px;
-	border-color: transparent transparent transparent #ffffff;
+	border-color: transparent transparent transparent #AF4F36;
 	float: right;
 	margin: 11px 0 0 10px;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
 }
 
 .score-bar .category-title .counter {
